@@ -2,7 +2,6 @@
     <ins class="adsbygoogle"
          :data-ad-client="adClient"
          :data-ad-slot="adSlot"
-         :data-ad-format="adFormat"
          :data-full-width-responsive="adFullWidthResponsive"
          :style="adStyle">
     </ins>
@@ -18,11 +17,6 @@
       adSlot: {
         type: String,
         required: true
-      },
-      adFormat: {
-        type: String,
-        required: false,
-        default: 'auto'
       },
       adFullWidthResponsive: {
         type: String,
